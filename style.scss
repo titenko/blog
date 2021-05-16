@@ -287,3 +287,22 @@ footer {
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
 @import "svg-icons";
+
+.topbutton {
+width:100px;
+border:2px solid #ccc;
+background:#f7f7f7;
+text-align:center;
+padding:10px;
+position:fixed;
+bottom:50px;
+right:50px;
+cursor:pointer;
+color:#333;
+font-family:verdana;
+font-size:12px;
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-khtml-border-radius: 5px;
+}
